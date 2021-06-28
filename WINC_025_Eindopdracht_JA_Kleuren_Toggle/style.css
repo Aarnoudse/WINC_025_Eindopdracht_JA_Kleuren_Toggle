@@ -1,0 +1,85 @@
+/* Import - Text - Poppins */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+/* General layout*/
+* {
+    font-family: 'Poppins', Century Gothic, Lato, sans-serif;
+    font-size: larger;   
+}
+
+.introduction {
+    Padding: 40px;
+    font-style: italic;
+}
+
+/* Hamburger icon */
+
+#icon-menu {
+    height: 80px;
+    cursor: pointer;
+}
+
+/* Menu - open */
+
+#btntogglenav {
+    width: 60px;
+    height: 60px;
+}
+
+.toggle_menu {
+    width: 35%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#icon-menu:hover {
+    opacity: .5;
+}
+
+.openmenu {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Menu - closed (default option) */
+.close-menu {
+    visibility: hidden;  
+    transition-delay: 2s;
+}
+
+/* Colors */
+
+.White {
+    background-color: rgb(255, 255, 255);
+}
+
+.Yellow {
+    background-color: rgb(235, 219, 78);
+}
+
+.Purple {
+    background-color: purple;
+}
+
+.Brown {
+    background-color: brown;
+}
+
+.Red {
+    background-color: red;
+}
+
+/* MEDIA QUERIES - Telephone */
+
+@media (max-width: 840px){
+
+* {
+    font-size: 26px;
+}
+
+}
